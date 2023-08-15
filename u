@@ -171,10 +171,6 @@ end)
 
 ------------------------------------------------------------------------------------------------------------------------
 
-local Tab8Section:NewLabel("Welcome",game.Players.LocalPlayer.Name,"To Universal Shakars HUB!")
-local Tab8Section:NewLabel(game.Players.LocalPlayer.UserId)
-local Tab8Section:NewLabel(game.Players.LocalPlayer.AccountAge)
-
 --discord server
 
 setclipboard("https://discord.gg/g86HSsjt")
@@ -1277,3 +1273,7 @@ Tab2Section:NewButton("FrontLines Script Gui", "Loads FrontLines Script Gui", fu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/frontlines./main/hitbox",true))()
     print("Clicked")
 end)
+
+local Tab8Section:NewLabel("Welcome",game.Players.LocalPlayer.Name,"To Universal Shakars HUB!")
+local Tab8Section:NewLabel(game.Players.LocalPlayer.UserId)
+local Tab8Section:NewLabel(game.Players.LocalPlayer.AccountAge)
